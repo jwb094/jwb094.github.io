@@ -1,0 +1,46 @@
+body{
+font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+}
+#Personal-summary { 
+    background-color: green;
+    }
+#Personal-Details { 
+    background-color: darkred ;
+    }   
+   #online-accounts > li >  a {
+   text-decoration: none !important;
+   color: black;
+    }
+
+#Employment { 
+    background-color: #004aff ;
+    } 
+
+    #Job1{ 
+        padding-left:52px;
+        }
+    #Job2{ 
+        padding-left:104px;
+        }
+    #Job3{ 
+        padding-left:156px;
+        }  
+
+
+#Education { 
+    background-color: #873600 ;
+    } 
+
+#skills { 
+    background-color: #fb504b ;
+    } 
+
+#Awards-achievement { 
+    background-color: #fff700 ;
+    } 
+
+#hobbies-interest { 
+    background-color: #ff9999 ;
+    } 
+
