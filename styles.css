@@ -1,50 +1,89 @@
-body{
-font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+/*Personal  */
+#Personal{
+width:100%;
+background-color:green;
+}
+header{
+margin-left: 450px;
+}
+#pic {
+width:20%;
+height:20%;
+padding-left: 5px;
+}
+a  {
+padding-left: 18px;
+}
+article{
+  float:right;
+  width:70%;
+  padding: 50px;
+}
+.pinfo{
+text-align: center;
+padding:25px;
+}
+
+
+/*Education-Employment  */
+#Experience{
+width:100%;
+background-color:red;
+}
+
+
+
+/*#employment {
+width:50%;
+}
+#Education{
+width:50%;
+}
+
+#firstnav ul {
+      float:left;  
+      list-style: none;
+      margin-left: 50px;
+      width:25%;
+}
+
+#secondnav ul{
+        float:right;      
+        list-style: none;
+        margin-right: 50px;
+        width:25%;
+}
+/* end  */
+
+
+#SYS{
+background-color:gold;
 
 }
-h1 {
-    text-align: center;
-    font-size: 36px;
+
+footer {
+	float: left;
+	width:100%;
+	padding: 2%;
+	margin: 1% 0;
+	background-color: #6b6b6b;
 }
-#Personal-summary { 
-    background-color: green;
-    }
-#Personal-Details { 
-    background-color: darkred ;
-    }   
-   #online-accounts > li >  a {
-   text-decoration: none !important;
-   color: black;
-    }
-
-#Employment { 
-    background-color: #004aff ;
-    } 
-
-    #Job1{ 
-        padding-left:52px;
-        }
-    #Job2{ 
-        padding-left:104px;
-        }
-    #Job3{ 
-        padding-left:156px;
-        }  
 
 
-#Education { 
-    background-color: #873600 ;
-    } 
+.one-third{
+	float:left;
+	width: 29%;
+	padding: 1%;
+	margin: 0 1%;
+  background-color:gold;
+}
 
-#skills { 
-    background-color: #fb504b ;
-    } 
 
-#Awards-achievement { 
-    background-color: #fff700 ;
-    } 
 
-#hobbies-interest { 
-    background-color: #ff9999 ;
-    } 
+
+
+
+
+
+
 
