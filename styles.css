@@ -1,7 +1,19 @@
-/*--Start of body--*/
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
+* 	{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	}
 body{
-  background-color: white;
-}
+	/*background-color;*/ 
+	padding: 2%;
+	font-family: 'Josefin Sans', Sans-serif;
+	font-size:22px;
+	/*color: #4f3113;*/
+	line-height: 26px;
+	/*text-align: justify;*/
+	}
+
 h1,h2,h4,h5{
  color:black;
  font-family: 'Noto Sans', sans-serif;
@@ -12,14 +24,24 @@ font-weight: 200;
 font-family: 'Slabo 27px', serif;
 
 }
-/*--End of Body--*/
 
+header{
+	text-align: center;
+	}
+p 	{	
+	text-indent: 5%;
+	}
 
-/*--Start of Navigation--*/
+h2	{
+	text-align: center;
+	line-height: 125%;
+	}
+	/*--Start of Navigation--*/
 nav {
 	 width: 100%;
-	 /*margin: 1% auto;*/
+	 margin: 1% auto;
 	 overflow: hidden;
+	border-radius: 10px;
 	}
 
 nav ul	{
@@ -27,9 +49,9 @@ nav ul	{
 	overflow: hidden;
 	}
 nav li a {
-	background-color: #73AF59;
-	border-right: 2px solid black;
-	color: black;
+	background-color: black;
+	border-right: 1px solid #454545;
+	color: #FAFAFA;
 	display:block;
 	float: left;
 	font-size: 120%;
@@ -37,29 +59,35 @@ nav li a {
 	padding: 1%;
 	text-align: center;
 	text-decoration: none;
-	width: 17%;/*--6 items divide by 100%--*/
+	width: 20%;/*--5 items divide by 100%--*/
 	transition: background 0.5s ease;
 	}
 nav li a:hover, nav li.active a {
-	background-color: #DADADA;
-	color:  #454545;
+	background-color: white;
+	color:  black;
 	}
 nav li:last-child a	{
 	border: none;
 	}
 /*--End of Navigation--*/
-/*Personal  */
+
+/*Personal section*/
 #Personal{
 width:100%;
 height:auto;
 
 }
-#Personal h1{
+#personal h1{
 text-align: center;
 font-size: 30px;
 }
-#Personal h2,h5{
-margin-left:80px;
+#personal h2{
+margin-left: -95px;
+
+}
+#personal h5{
+margin-left: 75px;
+
 }
 #pic {
 width:20%;
@@ -72,11 +100,13 @@ border-radius: 20px;
 #sprofile  {
 display: inline;
 }
-#sprofile > p{
-margin-left:15px;
-
+#sprofile p {
+margin-left: -30px;
 }
-article{
+.spicon{
+width:25px;
+}
+#personaldetails{
   float:right;
   width:70%;
   padding: 50px;
@@ -88,6 +118,7 @@ text-align: center;
 padding:25px;
 font-size: 20px;
 }
+/*    End of personal Section */
 
 
 /*Education-Employment  */
@@ -122,38 +153,30 @@ margin-left: 165px;
 width:25%;
 height:25%;
 }
-#mlccLogo{
+
+.workLogo{
 width:20%;
 height:20%;
 }
-#sglogo{
-width:20%;
-height:20%;
-}
 
-#dnc-Logo{
-width:20%;
-height:20%;
-}
-/*End ofsection*/
+/*End of Education-Employment section*/
 
+/* Sell your self section > hobbies & interest grid */
+#AboutMe{
 
-/*Sell your self section*/
-#SYS{
-
-width:auto !important;
+width:100% !important;
 height:auto;
 }
 
-.one-third{
+/*.one-third{
 	float:left;
 	width: 29%;
   height:auto;
 	padding: 1%;
 	margin: 0 1%;
-background-color: red;  
-}
 
+}
+*/
 .one-third > h4{
 text-align: center;
 }
@@ -164,12 +187,7 @@ margin-left: auto;
 
 }
 /* Sell your self section > Awards and achievement  & Skillset section */
-.circle{
- border:1px solid #021a40;
-   border-radius: 70%;
-   width:auto;
-   list-style-type: none;
-}
+
 .circle > ul {
    list-style-type: none;
    font-size: 15px;
@@ -195,29 +213,87 @@ margin-left: auto;
 }
 
 
+/* End of Section*/
 
-#Contact-Me {
+
+
+/*body elements*/
+section{
 	float: left;
-	width:100% !important;
-  height: 100% !important;
-	padding: 10px 0 0 0 ;
-	margin: 1% 10;
-  background-color: lawngreen;
+	/*width: 60%;*/
+	height:auto;
+	padding: 2%;
+	margin: 1% 0;
+	background-color: white;
+	border:1px solid #021a40;
+	border-radius: 10px;
+}
+
+footer {
+	float: left;
+	width:100%;
+	padding: 2%;
+	margin: 1% 0;
+	color: white;
+	background-color: black;
+}
+.one-third{
+	float:left;
+	width: 29%;
+	padding: 1%;
+	margin: 0 1%;
+}
+/*--media Queries--*/
+@media only screen and (max-width: 780px){
+	nav {	
+		margin: 2% auto;
+	}
+	nav li a{
+		width: 33.3%;
+		font-size: 90%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		border-bottom: 1px solid #454545;
+	}
+	nav li:nth-child(3) a {
+		border-right: none;
+	}
+	section{
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+	.one-third {
+		width: 100%;
+	}
+	h2 {
+		font-size: 105%;
+	}
+	p{
+		font-size: 95%;
+	}
+}
+
+@media only screen and (max-width: 580px){
+	nav li a{
+		width: 50%;
+		font-size: 82%;
+	}
+	nav li:nth-child(even) a {
+		border-right: 1px solid #454545;
+	}
 	
+	nav li:nth-child(3) a {
+		border-right: none;
+	}
+	h2 {
+		font-size: 95%;
+	}
+	p{
+		font-size: 88%;
+	}
 }
-label, input{
-  margin-left: 30px;
-
-}
-
-
-
-
-
-
-
-
-
 
 
 
