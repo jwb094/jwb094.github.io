@@ -114,7 +114,7 @@ width:25px;
 .pinfo{
 text-align: center;
 padding:25px;
-font-size: 15px;
+/*font-size: 20px;*/
 }
 /*    End of personal Section */
 
@@ -153,8 +153,8 @@ height:25%;
 }
 
 .workLogo{
-width:15%;
-height:15%;
+width:20%;
+height:20%;
 }
 
 /*End of Education-Employment section*/
@@ -247,7 +247,7 @@ footer {
 		margin: 2% auto;
 	}
 	nav li a{
-		width: 20%;
+		width: 33.3%;
 		font-size: 90%;
 		padding-top: 2%;
 		padding-bottom: 2%;
@@ -274,82 +274,40 @@ footer {
 
 /* personal */
 
-
 #personal h1{
 text-align: center;
-font-size: 95%;
+font-size: 10%;
 }
+
+
 #personal h2{
-margin-left: -35px;
-font-size: 15%;
+margin-left: 95px;
+
 }
 #personal h5{
-margin-left: 60px;
-font-size: 15%;
-}
+margin-left: 10px;
 
+}
 
 .pinfo{
-font-size: 50%;
-}
 
-#sprofile p {
-margin-left: -40px;
+
+font-size: 10%;
 }
-/* End of personal */
+/* */
 
 	/* experience  */
-
-.two-in-one > h2{
-font-size: 40%;
-}
-
-.two-in-one > ul {
-	list-style: none;
-	margin-left: 65px;
-}
-.two-in-one > ul {
-	font-size: 20%;
-}
 	#Logo{
-	width:15%;
-	height:15%;
+width:5%;
+height:5%;
 }
 
 .workLogo{
-	width:20%;
-	height:2%;
+width:10%;
+height:10%;
 }
 
 }
-
-
-/*AboutMe*/
-
-.one-third{
-	float:left;
-	width: 31%;
-	padding: 1%;
-	margin: 0 1%;
-}
-
-/*#grid {
-  width: 50%;
-  margin-left: 5px;
-}
-
-.grid-element {
-  width: 50%;
-  height: 50%;
-  padding:1% 0;
-  float: left;
-}*/
-.about-me{
-width:50px;
-height:50px;
-
-}
-/* end of aboutme*/
 /*
 @media only screen and (max-width: 580px){
 	nav li a{
