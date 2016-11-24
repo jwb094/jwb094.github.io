@@ -19,7 +19,7 @@ font-family: 'Slabo 27px', serif;
 
 /* Personal Section */
 #personal{
-background-color:	#ffffff;
+background-color: #ffffff;
 border-bottom: 2px solid black;
 }
 #personal h1{
@@ -79,7 +79,7 @@ border-radius: 20px;
 /*    Experience Section */
 
 #Experience{
-background-color:	#ffffff;
+background-color: #ffffff;
 border-bottom: 2px solid black;
 }
 
@@ -108,12 +108,10 @@ text-align:center;
 /*About ME*/
 
 #Experience{
-background-color:	#ffffff;
+background-color: #ffffff;
 border-bottom: 2px solid black;
 }
-.one-third > h4{
-text-align: center;
-}
+
 
 .one-third > ul {
 list-style: none;
@@ -156,15 +154,15 @@ margin-left: auto;
   float: left;
 }
 .about-me{
-	width:50%;
-	height:50%;
+  width:50%;
+  height:50%;
 }
 
 .one-third{
-	float:left;
-	width: 29%;
-	padding: 1%;
-	margin: 0 1%;
+  float:left;
+  width: 29%;
+  padding: 1%;
+  margin: 0 1%;
 }
 
 /*    End of about me Section */
@@ -188,7 +186,7 @@ orange {
   padding: 0 15px;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
 }
 
 
@@ -212,15 +210,15 @@ nav ul a {
 }
 
 #pic {
-display:none;
+  display:none;
 }
 
 #sprofile p {
-margin-left: 25px;
+  margin-left: 25px;
 }
 
 .spicon{
-width:45px;
+  width:45px;
 }
 
 .pinfo{
@@ -231,7 +229,51 @@ width:45px;
 
 
 /*Experience*/
+
+#spworkLogo{
+  width:60%;
+  height:25%;
+}
+
+#dncworkLogo{
+  width:75%;
+  height:25%;
+}
+
+#mlccworkLogo{
+  width:85%;
+  height:65%;
+}
+
+.section > table > tbody > tr > td > p{
+   font-size:90%;
+}
+
+
 .section > h3{
-font-size: 95%;
+    font-size: 95%;
+}
+/*End Of Experience*/
+
+/*About Me Section*/
+.aboutmetitle{
+    font-size:80%;
+}
+
+.about-me{
+  width:25%;
+  height:25%;
+}
+
+#grid {
+  width: auto;
+ margin-left: 25px;
+}
+
+
+.grid-element {
+
+  
+  float: left;
 }
 }
