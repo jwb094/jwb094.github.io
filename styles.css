@@ -196,9 +196,11 @@ nav ul a {
 
 }
 
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 320px){
 
 /* personal*/
+
+
 
 #Personal{
   width:auto;
@@ -206,6 +208,7 @@ nav ul a {
 }
 
 #personal h2,h5{
+    display:none;
     
 }
 
@@ -214,7 +217,8 @@ nav ul a {
 }
 
 #sprofile p {
-  margin-left: 25px;
+  /*margin-left: 25px;*/
+  font-size:50%;
 }
 
 .spicon{
@@ -223,8 +227,9 @@ nav ul a {
 
 .pinfo{
   text-align: center;
-  padding:0px;
-  font-size:75%;
+  font-size:30%;
+  font-weight:100%;
+  
 }
 
 
