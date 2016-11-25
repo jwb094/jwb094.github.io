@@ -90,8 +90,8 @@ border-bottom: 2px solid black;
 
 
 #spworkLogo{
-width:75%;
-height:75%;
+width:90%;
+height:auto;
 }
 
 #dncworkLogo{
@@ -178,9 +178,10 @@ border-bottom: 2px solid black;
 
 /* footer*/
 footer {
-  margin-top: 20px;
+  /*margin-top: 20px;8*/
   padding-top: 20px;
   background-color: #7A0A1F;
+  height: 100%;
 }
 
 orange {
@@ -202,13 +203,14 @@ orange {
 nav {
     color: whitesmoke;
  
-     background: url("https://i.ytimg.com/vi/nr085MB6owo/maxresdefault.jpg");
+     background: url("http://s.storage.akamai.coub.com/get/b36/p/coub/simple/cw_timeline_pic/2e08a5832b5/9b760146090fb579aa6d2/big_1407406324_image.jpg");
 }
 
 nav ul a {
 
   color: white;
-
+ font-weight: bold;
+ font-size: 20px;
 }
 
 
@@ -314,6 +316,9 @@ nav ul a {
 }
 
 /* personal*/
+
+
+
 #Personal{
   width:auto;
   height:100%;
