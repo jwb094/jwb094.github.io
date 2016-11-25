@@ -308,10 +308,12 @@ nav ul a {
 
 @media only screen and (max-width: 540px){
 
+
+.material-icons{
+  visibility: hidden;
+}
+
 /* personal*/
-
-
-
 #Personal{
   width:auto;
   height:100%;
