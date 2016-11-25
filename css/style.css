@@ -18,11 +18,21 @@ font-size : 18px;
 
 }
 
+#bannerpic{
+height:auto;
+width:auto;
+}
+
 /* Personal Section */
+#index-banner{
+    background-color: #ffffff;
+    border-bottom: 2px solid black;
+}
+
 #personal{
 background-color:	#ffffff;
-border-bottom: 2px solid black;
-}
+
+*/}
 #personal h1{
 text-align: center;
 font-size: 30px;
@@ -78,6 +88,7 @@ background-color:	#ffffff;
 border-bottom: 2px solid black;
 }
 
+
 #spworkLogo{
 width:75%;
 height:75%;
@@ -123,11 +134,6 @@ container .row {
 
 /* Sell your self section > Awards and achievement  & Skillset section */
 
-/*.circle > ul {
-   list-style-type: none;
-   font-size: 15px;
-   text-align: center;
-}*/
 
 
 /* Sell your self section > hobbies & interest grid */
@@ -135,21 +141,18 @@ container .row {
   clear: both;
 }
 
-/*.row .col.s3 {
-  width: 25%;
- 
-  margin-left: auto;
-  left: auto;
-  right: auto;
-}*/
 
+#AboutMe{
+background-color:	#ffffff;
+border-bottom: 2px solid black;
+}
 
 
 
 
 #grid {
   width: auto;
-/*  margin-left: 25px;*/
+
 }
 
 .grid-element {
@@ -195,9 +198,16 @@ orange {
 }
 
 
+
+nav {
+    color: whitesmoke;
+ 
+     background: url("https://i.ytimg.com/vi/nr085MB6owo/maxresdefault.jpg");
+}
+
 nav ul a {
 
-  color: black;
+  color: white;
 
 }
 
