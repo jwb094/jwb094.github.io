@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./localhost_files/styles.css">
+    <link rel="stylesheet" href="./localhost_files/materialize.css">
+    <title></title>
+</head>
+
+<body>
+    <h1>Airport Arrivals</h1>
+    <a href="http://localhost:3000/">Home</a>
+
+
+
+
+
+
+
+
+    
+
+
+  <title>Search Airport</title>
+
+
+   <h2>Search Airport</h2>
+  <div class="row">
+    <form class="col m12">
+      <div class="row">
+        <div class="input-field col m6">
+          <input placeholder="Enter Desired Airport by City Or Location" name="search" id="search" type="text" class="validate" required="">
+          <button id="submitSearch" class="btn waves-effect waves-light" type="submit" name="action">submit</button>
+        </div>
+      </div>
+   </form>
+    </div>
+
+
+  <div id="SearchTitle">  </div>  
+    <table class="tablecolor" style="width:100%" border="2px" text-align="center">
+      <tbody><tr class="header">
+        <th><h4>Name</h4></th>
+        <th><h4>City</h4></th> 
+        <th></th>
+      </tr>
+       <tr><td> <div id="airportName">  </div> </td>
+       <td> <div id="City">  </div> </td>
+       <td> <div id="iataCode">  </div>    </td>           
+            </tr></tbody></table>
+    
+
+
+        <script src="./localhost_files/jquery-3.1.1.min.js"></script>
+        <script src="./localhost_files/displayApiInfo.js"></script>
+
+
+</body></html>
