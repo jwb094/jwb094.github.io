@@ -212,9 +212,13 @@ container .row {
 }
 
 .portfoliopicture{
- height:297px;
- 
+ height:260px;
+ width:85%;
+ margin: 0px auto;
+}
 
+.col{
+  text-align: center;
 }
 /*#rps{
 width:300px;
@@ -388,53 +392,6 @@ nav ul a {
  display : none;
 }
 
-/*Experience*/
-/*
-#spworkLogo{
-  width:60%;
-  height:25%;
 }
 
-#dncworkLogo{
-  width:75%;
-  height:25%;
-}
-
-#mlccworkLogo{
-  width:85%;
-  height:65%;
-}
-
-.section > table > tbody > tr > td > p{
-   font-size:90%;
-}
-
-
-.section > h3{
-    font-size: 95%;
-}
-/*End Of Experience*/
-
-/*About Me Section
-.aboutmetitle{
-    font-size:60%;
-}
-
-.about-me{
-	width:25%;
-	height:25%;
-}
-
-#grid {
-  width: auto;
- margin-left: 25px;
-}
-
-
-.grid-element {
-
-  
-  float: left;
-}*/
-}
 
