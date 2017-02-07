@@ -57,12 +57,19 @@ margin-left: 20px;
 border:1px solid #021a40;
 border-radius: 20px;
 }
-#sprofile  {
-display: inline;
+#extra{
+    text-align: center;
+    padding: 20%;
+
 }
-#sprofile p {
+.sprofile  {
+margin: 0 auto;
+
+
+}
+/*#sprofile p {
 margin-left: 60px;
-}
+}*/
 .spicon{
 width:25px;
 }
